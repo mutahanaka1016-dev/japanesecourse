@@ -1,8 +1,8 @@
 import { useState, useCallback, useMemo } from "react";
-import { grammarData } from "@/data/grammarData";
-import ProgressBar from "@/components/ProgressBar";
-import LevelSelector from "@/components/LevelSelector";
-import GrammarNode from "@/components/GrammarNode";
+import ProgressBar from "../components/ProgressBar";
+import LevelSelector from "../components/LevelSelector";
+import GrammarNode from "../components/GrammarNode";
+import { grammarData } from "../data/grammarData";
 import { motion } from "framer-motion";
 
 const STORAGE_KEY = "grammar-roadmap-progress";
